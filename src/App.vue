@@ -2,8 +2,8 @@
   <div id="app" class="uk-grid uk-grid-collapse">
     <NavigationBar />
     <div class="uk-width-expand uk-padding" uk-height-viewport>
-      <h1>Main Content</h1>
-      <p>This is the main content area.</p>
+      <DockView />
+      <p>Hello</p>
     </div>
   </div>
 </template>
@@ -15,13 +15,17 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 import NavigationBar from './components/NavigationBar.vue';
+import DockView from './components/DockView.vue'
 
 export default {
   name: 'App',
   components: {
     NavigationBar,
-  },
+    DockView
+  }
 };
+
+
 </script>
 
 <style lang="less">
