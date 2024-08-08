@@ -10,10 +10,11 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.1.1",
+    "axios": "^1.7.3",
     "core-js": "^3.8.3",
-    "dockview-vue": "^1.15.2",
     "uikit": "^3.21.8",
-    "vue": "^3.2.13"
+    "vue": "^3.2.13",
+    "vue-router": "^4.4.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

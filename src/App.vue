@@ -2,8 +2,7 @@
   <div id="app" class="uk-grid uk-grid-collapse">
     <NavigationBar />
     <div class="uk-width-expand uk-padding" uk-height-viewport>
-      <DockView />
-      <p>Hello</p>
+      <router-view />
     </div>
   </div>
 </template>
@@ -15,13 +14,15 @@ import Icons from 'uikit/dist/js/uikit-icons';
 UIkit.use(Icons);
 
 import NavigationBar from './components/NavigationBar.vue';
-import DockView from './components/DockView.vue'
+import ItemTypesView from './components/ItemTypesView.vue';
+import ItemsView from './components/ItemsView.vue';
 
 export default {
   name: 'App',
   components: {
     NavigationBar,
-    DockView
+    ItemTypesView,
+    ItemsView
   }
 };
 
