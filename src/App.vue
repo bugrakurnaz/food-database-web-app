@@ -15,6 +15,7 @@ UIkit.use(Icons);
 
 import NavigationBar from './components/NavigationBar.vue';
 import ItemTypesView from './components/ItemTypesView.vue';
+import StoredItemsView from './components/StoredItemsView.vue';
 import ItemsView from './components/ItemsView.vue';
 
 export default {
@@ -22,7 +23,8 @@ export default {
   components: {
     NavigationBar,
     ItemTypesView,
-    ItemsView
+    ItemsView,
+    StoredItemsView
   }
 };
 
